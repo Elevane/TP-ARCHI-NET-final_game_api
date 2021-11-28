@@ -1,8 +1,0 @@
-- install dotnet
-- installer mysql server
-- créer une bdd du nom de "game_db"
-- dans l'application :
-	dotnet user-secrets init
-	doter user-secrets set "DefaultConnection" "server=***host**:**port**;database=game_db;uid=root;password=;"
-
-- pour des question pratique : dans ce projet nous avons créer la base de donées à l'aide de l'outils de migration dotnet.

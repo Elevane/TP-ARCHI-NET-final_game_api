@@ -3,8 +3,8 @@
 namespace tp_final_game_api.Controllers
 {
     [ApiController]
-    [Route("/api/v1/")]
-    public class ApiController :Controller
+    [Route("/api/v1/[controller]")]
+    public class BaseApiController : Controller
     {
     }
 }
