@@ -31,3 +31,14 @@ Pour lancer l'api :
 <> si vous rencontrez des ddifficulté avec les certificats HTTPS :
 	- dotnet dev-certs https --clean
     - dotnet dev-certs https -t
+    
+    
+    
+ ENDPOINTS : 
+ 
+  GET: /api/v1/[controller]/     getAll
+  GET : /api/v1/[controller]/{questionId    getOne
+  POST : /api/v1/[controller]
+  PUT : /api/v1/[controller]/{questionId}
+  DELETE :/api/v1/[controller]/{questionId}
+        
