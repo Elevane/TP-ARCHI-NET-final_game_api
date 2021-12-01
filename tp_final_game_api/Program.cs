@@ -15,7 +15,6 @@ builder.Services.AddApplication(builder.Configuration);
 builder.Services.AddDbContext<GameContext>(options => options.UseSqlServer(builder.Configuration["db"]));
 
 
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
