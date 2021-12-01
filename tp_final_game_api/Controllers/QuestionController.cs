@@ -22,6 +22,15 @@ namespace tp_final_game_api.Controllers
             _mapper = mapper;
         }
        
+         /// <summary>
+        /// Permet a l'api gateaway te verifier que le service est ok
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet("/ping")]
+        public async Task<Result> Ping()
+        {
+            return Result.Ok();
+        }
 
 
         [HttpGet]
